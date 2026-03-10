@@ -6,7 +6,95 @@ Trabajo informatica
 <meta charset="UTF-8">
 <title>Armas de la Primera Guerra Mundial</title>
 <link rel="stylesheet" href="style.css">
+<style>
+  body{
+    font-family: Arial;
+    margin:0;
+    background-color:#f4eaea;
+}
 
+header{
+    background-color:#800020; /* rojo vino */
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background-color:#5c0f0f; /* rojo vino oscuro */
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd6d6;
+}
+
+.contenido{
+    padding:20px;
+}
+
+img{
+    width:400px;
+    margin-top:10px;
+}
+
+table{
+    border-collapse:collapse;
+    width:80%;
+    margin-top:20px;
+}
+
+table, th, td{
+    border:1px solid #800020;
+}
+
+th{
+    background-color:#800020;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+
+.boton-enlace {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.boton-enlace a button {
+  background-color: #800020;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton-enlace a button:hover {
+  background-color: #5a0015; 
+  transform: scale(1.05);
+}
+
+footer{
+    background-color:#800020;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
 </head>
 
 <body>
